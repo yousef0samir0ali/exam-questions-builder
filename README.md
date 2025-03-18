@@ -20,6 +20,10 @@ Technologies Used
 
 
 **React JS** (Frontend framework)
+
 **React Router** (Navigation between pages)
+
 **CSS** (Styling)
+
 **Vite** (Fast development server)
+
