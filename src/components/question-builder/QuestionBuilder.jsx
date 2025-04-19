@@ -17,7 +17,8 @@ export default function QuestionForm({ addQuestion, editQuestion, questions }) {
       setQuestion(q.question);
       setType(q.type);
       setCorrectAnswer(q.correctAnswer);
-      setOptions(q.options > 0 ? [q.option] : [""]);
+      // setOptions(q.options > 0 ? [q.option] : [""]);
+      setOptions(q.options);
     }
   }, [index, questions]);
 
